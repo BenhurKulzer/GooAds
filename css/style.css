@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #intro {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background: linear-gradient(45deg, #80deea, #1d5bcd);
   position: relative;
 }
@@ -137,12 +137,6 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-height: 768px) {
   #intro .intro-text {
     padding-top: 80px;
-  }
-}
-
-@media (max-width: 768px) {
-  #intro .intro-text {
-    padding-top: 180px;
   }
 }
 
@@ -203,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .product-screens {
-  position: absolute;
+  position: inherit;
   left: 0;
   right: 0;
   bottom: 0;
@@ -211,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 40px;
   text-align: center;
   width: 100%;
-  height: 530px;
+  height: 400px;
 }
 
 #intro .product-screens img {

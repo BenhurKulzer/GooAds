@@ -231,7 +231,7 @@
 [data-aos=fade-up]{transform:translateY(100px)}
 [data-aos=fade-down]{transform:translateY(-100px)}
 [data-aos=fade-right]{transform:translate(-100px)}
-[data-aos=fade-left]{transform:translate(100px)}
+[data-aos=fade-left]{transform:translate(0px)}
 [data-aos=fade-up-right]{transform:translate(-100px,100px)}
 [data-aos=fade-up-left]{transform:translate(100px,100px)}
 [data-aos=fade-down-right]{transform:translate(-100px,-100px)}
