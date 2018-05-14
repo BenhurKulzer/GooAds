@@ -1,0 +1,12 @@
+API Whatsapp
+
+Planos -> Nome, CPF, Email, Telefone, Envia dados de acesso
+para email cliente caso não possua cadastro
+
+caso seja cadastrado -> retorna mensagem informando,
+abre a plataforma onde ele pode resetar a senha se necessário
+
+https://faq.whatsapp.com/en/android/26000030/?lang=pt_br
+
+https://developers.facebook.com/docs/messenger-platform/introduction/conversation-components
+
