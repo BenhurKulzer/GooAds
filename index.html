@@ -392,7 +392,7 @@
                 <li><i class="ion-ios-close-outline" style="color: red;"></i> Sites, Sistemas ou E-commerce</li>
                 <li><i class="ion-ios-close-outline" style="color: red;"></i> Suporte via Ticket's 24h</li>
               </ul>
-              <a href="#" class="get-started-btn">Contratar Plano</a>
+              <a data-toggle="modal" data-target="#PlanoPrata" class="get-started-btn cursor">Contratar Plano</a>
             </div>
           </div>
 
@@ -407,7 +407,7 @@
                 <li><i class="ion-android-checkmark-circle"></i> Atendimento Personalizado</li>
                 <li><i class="ion-ios-close-outline" style="color: red;"></i> Suporte via Ticket's 24h</li>
               </ul>
-              <a href="#" class="get-started-btn">Contratar Plano</a>
+              <a data-toggle="modal" data-target="#PlanoOuro" class="get-started-btn cursor">Contratar Plano</a>
             </div>
           </div>
 
@@ -422,41 +422,147 @@
                 <li><i class="ion-android-checkmark-circle"></i> Atendimento Personalizado</li>
                 <li><i class="ion-android-checkmark-circle"></i> Suporte via Ticket's 24h</li>
               </ul>
-              <a data-toggle="modal" data-target="#exampleModalLong" class="get-started-btn">Contratar Plano</a>
+              <a data-toggle="modal" data-target="#PlanoDiamante" class="get-started-btn cursor">Contratar Plano</a>
             </div>
           </div>
 
         </div>
       </div>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<!-- Modal Prata -->
+<div class="modal fade" id="PlanoPrata" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header" style="background: url(https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX10752843.jpg); opacity: 0.7;">
-        <h5 class="modal-title" id="exampleModalLongTitle" style="color: black; font-weight: 600; text-shadow: 1px 1px #fff;">Plano Diamante</h5>
+      <div class="modal-header" style="background: linear-gradient(45deg, #b9b8b8, #848484);">
+        <h5 class="modal-title" id="exampleModalLongTitle" style="color: white; font-weight: 600; text-shadow: 1px 1px #000;">Plano Prata</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
-        <label>Nome Completo: </label>
-        <input type="text" class="form-control" placeholder="">
-        
-        <label>CPF:</label>
-        <input type="text" class="form-control" placeholder="">
+      
+      <form action="" method="post" role="form">
+  
+        <div class="modal-body">
+          <div class="col-md-12 marbot">
+            <span>Nome Completo: </span>
+            <input type="text" class="form-control" placeholder="">
+          </div>
+          
+          <div class="col-md-12 marbot">
+            <span>CPF:</span>
+            <input type="text" class="form-control" placeholder="">
+          </div>
 
-        <label>E-Mail:</label>
-        <input type="text" class="form-control" placeholder="">
+          <div class="col-md-12 marbot">
+            <span>E-Mail:</span>
+            <input type="text" class="form-control" placeholder="">
+          </div>
 
-        <label>Telefone:</label>
-        <input type="text" class="form-control" placeholder="">
+          <div class="col-md-12 marbot">
+            <span>Telefone:</span>
+            <input type="text" class="form-control" placeholder="">
+          </div>
 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary">Prosseguir</button>
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal Ouro -->
+<div class="modal fade" id="PlanoOuro" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="background: linear-gradient(45deg, #ecde61, #b7ac42);">
+        <h5 class="modal-title" id="exampleModalLongTitle" style="color: white; font-weight: 600; text-shadow: 1px 1px #000;">Plano Ouro</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-        <button type="button" class="btn btn-primary">Prosseguir</button>
+      
+      <form action="" method="post" role="form">
+  
+        <div class="modal-body">
+          <div class="col-md-12 marbot">
+            <span>Nome Completo: </span>
+            <input type="text" class="form-control" placeholder="">
+          </div>
+          
+          <div class="col-md-12 marbot">
+            <span>CPF:</span>
+            <input type="text" class="form-control" placeholder="">
+          </div>
+
+          <div class="col-md-12 marbot">
+            <span>E-Mail:</span>
+            <input type="text" class="form-control" placeholder="">
+          </div>
+
+          <div class="col-md-12 marbot">
+            <span>Telefone:</span>
+            <input type="text" class="form-control" placeholder="">
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary">Prosseguir</button>
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal Diamante -->
+<div class="modal fade" id="PlanoDiamante" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="background: linear-gradient(45deg, #5db7ce, #3b7aec);">
+        <h5 class="modal-title" id="exampleModalLongTitle" style="color: white; font-weight: 600; text-shadow: 1px 1px #000;">Plano Diamante</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
+      
+      <form action="" method="post" role="form">
+  
+        <div class="modal-body">
+          <div class="col-md-12 marbot">
+            <span>Nome Completo: </span>
+            <input type="text" class="form-control" placeholder="">
+          </div>
+          
+          <div class="col-md-12 marbot">
+            <span>CPF:</span>
+            <input type="text" class="form-control" placeholder="">
+          </div>
+
+          <div class="col-md-12 marbot">
+            <span>E-Mail:</span>
+            <input type="text" class="form-control" placeholder="">
+          </div>
+
+          <div class="col-md-12 marbot">
+            <span>Telefone:</span>
+            <input type="text" class="form-control" placeholder="">
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary">Prosseguir</button>
+        </div>
+
+      </form>
+
     </div>
   </div>
 </div>

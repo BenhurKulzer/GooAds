@@ -1240,3 +1240,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .footer-links a:hover {
   color: #1dc8cd;
 }
+
+.marbot {
+  margin-bottom: 1rem;
+}
+
+.cursor {
+  cursor: pointer;
+}
